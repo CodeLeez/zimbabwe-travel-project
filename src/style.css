@@ -1,0 +1,12 @@
+h1 {
+  font-size: 48px;
+  color: black;
+  font-family: "Playfair Display", serif;
+}
+
+h2 {
+  font-size: 36px;
+  color: blueviolet;
+  font-family: "Poppins", serif;
+  font-weight: 900;
+}
