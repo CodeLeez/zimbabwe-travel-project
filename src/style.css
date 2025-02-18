@@ -18,7 +18,10 @@ header {
   text-align: center;
   padding: 200px 0;
 }
-
+img {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 header h1 {
   font-weight: 700;
   font-size: 96px;
@@ -56,12 +59,43 @@ header a {
   display: inline-block;
 }
 
+main {
+  background-color: white;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+main h3 {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
+}
+
+main p {
+  font-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.7;
+}
+
 footer {
   background: linear-gradient(rgba(39, 32, 68, 0.7), rgba(39, 32, 62, 0.7)),
     url(/images/harare.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 100px 0;
 }
 
 footer h3 {
@@ -96,12 +130,24 @@ section {
   max-width: 1200px;
   margin: 0 auto;
   margin-left: 40px;
+  padding: 100px 0;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
+
   grid-gap: 64px;
+}
+
+.grid-2-col {
+  grid-template-columns: 1fr 1fr;
+}
+.grid-3-col {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.img-responsive {
+  max-width: 100%;
 }
 
 @media (max-width: 960px) {
@@ -118,7 +164,13 @@ section {
   header h3 {
     font-size: 12px;
   }
-  footer .grid {
+
+  .grid {
     grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 30px;
   }
 }
