@@ -209,6 +209,10 @@ section {
   aspect-ratio: 1/1;
 }
 
+.instagram-embeds {
+  margin: 30px;
+}
+
 .img-responsive {
   width: 100%;
   display: block;
