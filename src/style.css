@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: #94a28e;
+  background: #854836;
   color: white;
 }
 
@@ -11,7 +11,7 @@ body {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/images/zim1.jpg);
+    url(/images/zimcafe6.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -34,6 +34,7 @@ header h2 {
   font-size: 40px;
   line-height: 1.5;
   margin: 0;
+  font-family: "Dancing Script", serif;
 }
 
 header h3 {
@@ -42,6 +43,7 @@ header h3 {
   line-height: 1.5;
   letter-spacing: 3px;
   margin: 0;
+  font-family: "Playfair Display", serif;
 }
 
 header a {
@@ -51,16 +53,26 @@ header a {
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
-  background: white;
+  color: white;
   text-decoration: none;
-  color: #272044;
+  background: #854836;
   padding: 16px 32px;
   margin-top: 32px;
   display: inline-block;
 }
 
+a:hover {
+  color: #854836;
+  background: white;
+}
+
 main {
   background-color: white;
+}
+
+main .zim-coffee {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
 }
 
 main h2 {
@@ -78,7 +90,7 @@ main h3 {
   font-weight: 300;
   font-size: 40px;
   line-height: 1.5;
-  color: #272044;
+  color: #854836;
   margin: 0;
 }
 
@@ -123,7 +135,7 @@ main p {
 
 footer {
   background: linear-gradient(rgba(39, 32, 68, 0.7), rgba(39, 32, 62, 0.7)),
-    url(/images/harare.jpg);
+    url(/images/footerbg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -155,6 +167,9 @@ footer a {
   color: white;
   opacity: 0.6;
 }
+footer a:hover {
+  color: crimson;
+}
 
 section {
   margin: 0 auto;
@@ -163,7 +178,11 @@ section {
 }
 
 .secondary {
-  background: rgba(221, 226, 221, 0.9);
+  background: #bbb0ad;
+}
+
+.secondary h3 {
+  font-family: "Playfair Display", serif;
 }
 
 .text-center {
